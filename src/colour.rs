@@ -1,9 +1,9 @@
 use std::num::Float;
 #[derive(Debug, Copy)] 
 pub struct Colour {
-	red: u8,
-	green: u8,
-	blue: u8
+	pub red: u8,
+	pub green: u8,
+	pub blue: u8
 }
 impl Colour {
 	pub fn new(red: u8, green: u8, blue: u8 ) -> Colour {

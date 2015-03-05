@@ -16,8 +16,8 @@ pub struct Sphere {
     pub radius: f32,
     pub position: Vector,
     pub colour: Colour,
-    pub emission: Vector,
-    pub reflection: Reflection
+    // pub emission: Vector,
+    // pub reflection: Reflection
 } 
 impl Sphere {
     pub fn new(radius: f32, position: Vector, colour: Colour) -> Sphere {
