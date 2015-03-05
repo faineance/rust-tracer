@@ -1,0 +1,9 @@
+[package]
+
+name = "rust-tracer"
+version = "0.0.1"
+authors = ["faineance"]
+
+[[bin]]
+name = "rust-tracer"
+path = "src/main.rs"
