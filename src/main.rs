@@ -8,7 +8,7 @@ mod ray;
 mod colour;
 mod vector;
 mod camera;
-
+mod scene;
 fn main() {
 	let width = 640;
 	let height = 480;
