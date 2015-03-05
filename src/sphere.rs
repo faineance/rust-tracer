@@ -24,7 +24,7 @@ impl Sphere {
         Sphere { radius: radius, position: position, colour: colour}
     }
     //Returns distance if hit, returns 0 if no hit.
-    fn intersect(&self, ray: Ray) -> f32 {
+    pub fn intersect(&self, ray: Ray) -> f32 {
         let op = self.position - ray.origin; 
         let eps = 1e-4;
         let b = dot(op ,ray.direction);
