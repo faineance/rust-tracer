@@ -11,6 +11,9 @@ impl Vector {
     pub fn new(x: f32, y: f32, z: f32) -> Vector {
         Vector { x: x, y: y, z: z }
     }
+    pub fn empty() -> Vector {
+        Vector { x: 0.0, y: 0.0, z: 0.0 }
+    }
     //Calculating the squared length of a vector is faster than calculating its length.
     //For use when determining whether one vector is longer then another.
     pub fn length_squared(&self) -> f32 {
