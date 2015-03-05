@@ -1,4 +1,3 @@
-extern crate image;
 use camera::Camera;
 use vector::Vector;
 use std::fs::File;
@@ -29,6 +28,7 @@ fn main() {
 					file.write(format!("{} {} {}\n", colour.red, colour.green, colour.blue).as_bytes());
 				}
 			}
+
 		},
 
 		Err(str) => {
