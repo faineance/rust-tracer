@@ -1,3 +1,4 @@
+#![feature(fs,io)]
 use camera::Camera;
 use vector::Vector;
 use std::fs::File;
