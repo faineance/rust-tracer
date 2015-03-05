@@ -1,7 +1,7 @@
 use colour::Colour;
 use sphere::Sphere;
 use camera::Camera;
-#[derive(Debug,Copy)]
+#[derive(Debug)]
 pub struct Scene {
 	pub background: Colour,
 	pub objects: Vec<Sphere>,
