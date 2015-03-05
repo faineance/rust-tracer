@@ -15,7 +15,7 @@ enum Reflection {
 pub struct Sphere {
     pub radius: f32,
     pub position: Vector,
-    pub colour: Colour
+    pub colour: Colour,
     pub emission: Vector,
     pub reflection: Reflection
 } 
